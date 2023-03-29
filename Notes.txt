@@ -1,0 +1,4 @@
+To get the secret ram key we open another terminal and run this command
+
+->require('crypto').randomBytes(64).toString('hex') which gives a different key each time we run
+  this key is used in .env and used later in server.js file 
